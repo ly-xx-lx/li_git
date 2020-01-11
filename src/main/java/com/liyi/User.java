@@ -3,13 +3,22 @@ package com.liyi;
 public class User {
     private Integer id;
     private String name;
-
+    private Integer age;
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
+    }
+    
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     public Integer getId() {
